@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wf.com.wf.MainActivity"
+
+    >
+
+    <Button
+        android:id="@+id/open"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="长得帅的点一下 "
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/light_backgroud"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="我叫凤辣子"
+        android:layout_marginTop="100dp"
+        android:textColor="#FF0000"
+        android:visibility="gone"/>
+</RelativeLayout>
