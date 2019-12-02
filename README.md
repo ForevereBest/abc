@@ -1,1 +1,1 @@
-这是一个demo
+react-native初学者demo
